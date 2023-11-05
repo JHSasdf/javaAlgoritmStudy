@@ -12,10 +12,17 @@ public class method {
             System.out.println("Hello World!");
         }
     }
+
+    public static void printSquares(int num) {
+        for (int i = 1; i <= num ; i++) {
+            System.out.println((int) Math.pow(i,2));
+        }
+    }
     public static void main(String[] args) {
 
         helloWorldTwice(1,2);
         helloWorldTwice(1,2,845);
         sayHelloWorld(5);
+        printSquares(5);
     }
 }

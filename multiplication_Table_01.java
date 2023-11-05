@@ -2,36 +2,43 @@
 package UDEMY_JAVA.javaWorkSpace;
 
 public class multiplication_Table_01 {
+    public static void printMultyTable(int num) {
+
+        for (int j = 1; j <= 9; j++) {
+            System.out.printf("%d * %d = %d, ", num, j, num * j);
+        }
+        System.out.println();
+    }
+
+    public static void printMultyTable(int num1, int num2) {
+        for (int j = 1; j <= 9; j++) {
+            System.out.printf("%d * %d = %d, ", num1, j, num1 * j);
+        }
+        System.out.println();
+
+        for (int j = 1; j <= 9; j++) {
+            System.out.printf("%d * %d = %d, ", num2, j, num2 * j);
+        }
+        System.out.println();
+    }
+
+    public  static int getLastAngle(int num1, int num2) {
+        if (num1 + num2 >= 180) {
+            System.out.println("it's not a triangle");
+            return 0;
+        } else {
+            return 180 - num1 -num2;
+        }
+
+    }
+
     public static void main(String[] args) {
-        System.out.printf("%d * %d = %d\n", 5, 7, 5 * 7);
-        System.out.printf("%f + %d + %d = %f\n", 5.5, 6, 7, 5.5 + 6 + 7);
-        System.out.printf("Thi\bs is %s\n", "Testing");
+        printMultyTable(3);
+        printMultyTable(7, 8);
+        System.out.println(getLastAngle(12, 180));
 
-        System.out.println(" --------------- -------------------------------exercise 1 --------------------------------------------");
-        int a = 3;
-        int b = 34;
-        int c = 456;
-        System.out.printf("a + b + c = %d\n", a + b + c);
-        a = 5;
-        System.out.printf("a + b + c = %d\n", a + b + c);
-
-        b = a;
-        b++;
-        System.out.printf("a : %d\n", a);
-        System.out.printf("b : %d\n", b);
-
-        System.out.println(1 + "3" + 5);
-//        ------------------------------------
-        int num1 = 3;
-        int num2 = 5;
-        int num3 = 7;
-        int num4 = 10;
-        if (num1+num2 > num3 +num4) {
-            System.out.println("good!");
-        }
-        for (int i = 0; i < 10; i++) {
-            System.out.println( (int) (Math.floor(Math.random()*10+1)));
-        }
-
+//        클래스 살펴보기
+        multiplication_Table_01 earth = new multiplication_Table_01();
+        System.out.println(earth.getLastAngle(70,40));
     }
 }
