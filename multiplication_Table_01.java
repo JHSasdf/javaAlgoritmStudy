@@ -9,6 +9,7 @@ public class multiplication_Table_01 {
         table.print();
         table.helloWorldTwice(3,4);
         table.helloWorldTwice(3,4,7);
+        table.helloWorldTwice(3,4,7);
 
 
     }
