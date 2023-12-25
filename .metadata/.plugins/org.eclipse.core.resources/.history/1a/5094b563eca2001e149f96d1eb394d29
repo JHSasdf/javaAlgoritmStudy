@@ -1,0 +1,12 @@
+package com.in28minutes.firstjavaproject;
+
+import com.in28minutes.firstjavaproject.MultiplicationTable;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+		MultiplicationTable.print();
+	}
+
+}
