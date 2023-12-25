@@ -2,7 +2,7 @@ package com.in28minutes.firstjavaproject;
 
 public class MultiplicationTableRunner {
 
-	public static boolean isLeapYear(int year) {
+	public boolean isLeapYear(int year) {
 		if (Math.floorDiv(year, 4) == 0) {
 			if (Math.floorDiv(year, 400) == 0) {
 				return true;
@@ -25,7 +25,6 @@ public class MultiplicationTableRunner {
 //		}
 
 		table.print(5, 11, 20);
-		System.out.println((Math.floorDiv(2000, 100)));
 
 	}
 }

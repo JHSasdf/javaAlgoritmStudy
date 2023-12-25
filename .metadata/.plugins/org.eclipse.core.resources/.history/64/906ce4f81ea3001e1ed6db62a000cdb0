@@ -25,7 +25,7 @@ public class MultiplicationTableRunner {
 //		}
 
 		table.print(5, 11, 20);
-		System.out.println((Math.floorDiv(2000, 100)));
+		System.out.println(2000/4);
 
 	}
 }

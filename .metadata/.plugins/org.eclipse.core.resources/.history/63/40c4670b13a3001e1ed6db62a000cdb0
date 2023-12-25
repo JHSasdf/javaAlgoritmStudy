@@ -17,5 +17,4 @@ public class MultiplicationTable {
 			System.out.printf(word, num, i, num * i).println();
 		}
 	}
-
 }
