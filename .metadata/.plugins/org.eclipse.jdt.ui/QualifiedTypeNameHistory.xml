@@ -3,5 +3,7 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="com.in28minutes.firstjavaproject.MultiplicationTable"/>
+    <fullyQualifiedTypeName name="com.in28minutes.firstjavaproject.MultiplicationTableRunner"/>
 </qualifiedTypeNameHistroy>

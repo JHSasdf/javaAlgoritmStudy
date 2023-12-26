@@ -2,18 +2,6 @@ package com.in28minutes.firstjavaproject;
 
 public class MultiplicationTableRunner {
 
-	public static boolean isLeapYear(int year) {
-		if (Math.floorDiv(year, 4) == 0) {
-			if (Math.floorDiv(year, 400) == 0) {
-				return true;
-			} else if (Math.floorDiv(year, 100) == 0) {
-				return false;
-			}
-			return true;
-		}
-		return false;
-	}
-
 	public static void main(String[] args) {
 		MultiplicationTable table = new MultiplicationTable();
 		table.print();
