@@ -5,6 +5,14 @@ public class MotorBike {
 	// state
 	private int speed;
 
+	MotorBike() {
+		this(5);
+	}
+
+	MotorBike(int speed) {
+		this.speed = speed;
+	}
+
 	// behaviour
 	void start() {
 		System.out.printf("Bike started! at speed %d", speed).println();
@@ -20,4 +28,12 @@ public class MotorBike {
 		}
 	};
 
+	public void increaseSpeed(int howMuch) {
+		setSpeed(this.speed + howMuch);
+	}
+
+	public void decreaseSpeed(int howMuch) {
+		setSpeed(this.speed - howMuch);
+
+	}
 }
