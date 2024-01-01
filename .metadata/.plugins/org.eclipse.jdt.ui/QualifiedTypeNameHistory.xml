@@ -7,4 +7,7 @@
     <fullyQualifiedTypeName name="com.in28minutes.firstjavaproject.MultiplicationTable"/>
     <fullyQualifiedTypeName name="com.in28minutes.firstjavaproject.MultiplicationTableRunner"/>
     <fullyQualifiedTypeName name="com.in28minutes.oops.MotorBike"/>
+    <fullyQualifiedTypeName name="data.type.SimpleInterestCalculator"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="data.type.MyChar"/>
 </qualifiedTypeNameHistroy>
