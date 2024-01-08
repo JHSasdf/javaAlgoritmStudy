@@ -1,0 +1,20 @@
+package StringValue;
+
+public class StringValRunner {
+
+	public static void main(java.lang.String[] args) {
+		// TODO Auto-generated method stub
+		String str = "This is a lot of text";
+		System.out.println(str.charAt(2));
+		System.out.println(str.substring(5, 13));
+		for (int i = 0; i < str.length(); i++) {
+			System.out.println(str.charAt(i));
+		}
+		System.out.println(str.indexOf("lo") >= 0);
+		System.out.println("contains text: " + str.contains("text"));
+		System.out.println("start with This: " + str.startsWith("This"));
+		System.out.println("is empty: " + "".isEmpty());
+		System.out.println("equal Ignore case: " + "STRD".equalsIgnoreCase("strd"));
+	}
+
+}

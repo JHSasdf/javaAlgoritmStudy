@@ -9,11 +9,15 @@ public class myNumberRunner {
 		System.out.println("sumOfDivisors : " + number.sumOfDivisors());
 		number.mkTree();
 
-		int i = 3;
+		int i = 343;
+		String k = String.valueOf(i);
+		System.out.println(k.charAt(1));
 		do {
 			System.out.println(i);
 			i++;
 		} while (i < 5);
 		System.out.println(i);
+
 	}
+
 }
