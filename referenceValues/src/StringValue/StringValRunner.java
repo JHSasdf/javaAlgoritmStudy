@@ -15,6 +15,15 @@ public class StringValRunner {
 		System.out.println("start with This: " + str.startsWith("This"));
 		System.out.println("is empty: " + "".isEmpty());
 		System.out.println("equal Ignore case: " + "STRD".equalsIgnoreCase("strd"));
+		str = str.toUpperCase();
+		System.out.println(str);
+//		왼쪽에서 오른쪽으로 진행됨. 1 + 2 후 + "23" 
+		System.out.println(1 + 2 + "23");
+		System.out.println("1" + 2 + 3);
+		System.out.println("1" + (2 + 3));
+		System.out.println(String.join(" ", "sfsf", "erdf", "s"));
+		System.out.println("accd".replace("ac", "qwe"));
+
 	}
 
 }
