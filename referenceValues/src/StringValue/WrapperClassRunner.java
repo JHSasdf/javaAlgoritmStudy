@@ -29,5 +29,13 @@ public class WrapperClassRunner {
 		list.add('s');
 		list.add("sf");
 		System.out.println(list);
+		String str = "wrs sfwv wrdf";
+		String[] words = str.split(" ");
+		for (String word : words) {
+			System.out.println("word: " + word);
+		}
+		char a = str.charAt(2);
+		System.out.println(a);
+
 	}
 }
