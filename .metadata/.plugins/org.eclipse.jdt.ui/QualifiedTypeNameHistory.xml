@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="com.in28minutes.firstjavaproject.MultiplicationTableRunner"/>
     <fullyQualifiedTypeName name="com.in28minutes.oops.MotorBike"/>
     <fullyQualifiedTypeName name="data.type.SimpleInterestCalculator"/>
-    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
     <fullyQualifiedTypeName name="data.type.MyChar"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="javax.lang.model.util.ElementScanner9"/>
@@ -21,4 +20,7 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.jcp.xml.dsig.internal.MacOutputStream"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="java.math.RoundingMode"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
