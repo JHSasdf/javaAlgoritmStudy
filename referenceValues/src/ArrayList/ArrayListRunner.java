@@ -3,6 +3,7 @@ package ArrayList;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 public class ArrayListRunner {
 
@@ -19,6 +20,11 @@ public class ArrayListRunner {
 		System.out.println(Collections.max(arrayList));
 		System.out.println(arrayList);
 		System.out.println(Arrays.equals(new String[] { "asd", "ggood!" }, new String[] { "asd", "ggood!" }));
+		int length = 5;
+		int k = (int) Math.ceil((double) length / 2);
+		System.out.println(k);
+		List<Integer> resultArray = new ArrayList<>();
+		Collections.sort(resultArray);
 	}
 
 }
