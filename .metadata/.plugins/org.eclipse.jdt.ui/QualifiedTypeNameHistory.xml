@@ -33,4 +33,7 @@
     <fullyQualifiedTypeName name="Inheritance.Recipe1"/>
     <fullyQualifiedTypeName name="Inheritance.AbstractRecipe"/>
     <fullyQualifiedTypeName name="Inheritance.RecipeWithMicrowave"/>
+    <fullyQualifiedTypeName name="interfaces.GamingConsole"/>
+    <fullyQualifiedTypeName name="interfaces.MarioGame"/>
+    <fullyQualifiedTypeName name="interfaces.ChessGame"/>
 </qualifiedTypeNameHistroy>
