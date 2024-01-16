@@ -4,6 +4,8 @@ public class GameRunner {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
+		// 다형성은 상속개념에도, 인터페이스에서도 적용
 		MarioGame game = new MarioGame();
 		game.up();
 		game.down();

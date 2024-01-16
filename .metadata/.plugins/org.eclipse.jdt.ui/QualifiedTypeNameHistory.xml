@@ -36,4 +36,7 @@
     <fullyQualifiedTypeName name="interfaces.GamingConsole"/>
     <fullyQualifiedTypeName name="interfaces.MarioGame"/>
     <fullyQualifiedTypeName name="interfaces.ChessGame"/>
+    <fullyQualifiedTypeName name="interfaces.Aeroplane"/>
+    <fullyQualifiedTypeName name="interfaces.Flyable"/>
+    <fullyQualifiedTypeName name="interfaces.Flyablerunner"/>
 </qualifiedTypeNameHistroy>
