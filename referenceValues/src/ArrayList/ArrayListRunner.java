@@ -25,6 +25,7 @@ public class ArrayListRunner {
 		System.out.println(k);
 		List<Integer> resultArray = new ArrayList<>();
 		Collections.sort(resultArray);
+
 	}
 
 }

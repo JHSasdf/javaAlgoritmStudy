@@ -21,11 +21,9 @@
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="com.in28min.Address"/>
     <fullyQualifiedTypeName name="com.in28min.Review"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Inheritance.Student"/>
     <fullyQualifiedTypeName name="java.math.BigDecimal"/>
     <fullyQualifiedTypeName name="Inheritance.Employee"/>
@@ -39,4 +37,9 @@
     <fullyQualifiedTypeName name="interfaces.Aeroplane"/>
     <fullyQualifiedTypeName name="interfaces.Flyable"/>
     <fullyQualifiedTypeName name="interfaces.Flyablerunner"/>
+    <fullyQualifiedTypeName name="collections.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Vector"/>
 </qualifiedTypeNameHistroy>
