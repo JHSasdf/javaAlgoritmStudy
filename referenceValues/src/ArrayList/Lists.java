@@ -1,6 +1,8 @@
 package ArrayList;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
@@ -33,9 +35,30 @@ public class Lists {
 		List<String> wordsLinkedList = new LinkedList<String>(words);
 		List<String> wordsVector = new Vector<String>(words);
 		wordsArrayList.add("dog");
+		wordsArrayList.add(2, "elephant");
+		wordsArrayList.addAll(words);
+		System.out.println(wordsArrayList);
 		wordsVector.add("dog");
 		wordsLinkedList.add("dog");
 		System.out.println(wordsVector);
+
+		Iterator<String> wordsIterator = wordsArrayList.iterator();
+		while (wordsIterator.hasNext()) {
+			System.out.println(wordsIterator.next());
+		}
+		System.out.println(wordsArrayList.get(0) instanceof String);
+
+		List<Integer> a = List.of(101, 102, 103, 83);
+		List<Integer> bAl = new ArrayList<Integer>(a);
+//		b.remove(101); // out of bounds error
+		bAl.remove(Integer.valueOf(101)); // 여기는 autoboxing을 안하고 이미 있는 method인 index라고 생각해서 인덱스로 받는다. 그렇기 때문에 인자에
+											// object를
+											// 넣어야한다.
+		// 그래서 value of로 class를 새로 생성해서 이걸 인자로 넣어야 인식한다.
+		System.out.println(bAl);
+		Collections.sort(bAl);
+//		bAl.sort(null);
+		System.out.println(bAl);
 
 	}
 
