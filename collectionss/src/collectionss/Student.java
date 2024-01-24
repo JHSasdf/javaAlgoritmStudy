@@ -33,6 +33,7 @@ public class Student implements Comparable<Student> {
 	@Override
 	public int compareTo(Student that) {
 		// TODO Auto-generated method stub
+		// 오름 차순 정렬
 		return Integer.compare(this.id, that.id);
 	}
 
