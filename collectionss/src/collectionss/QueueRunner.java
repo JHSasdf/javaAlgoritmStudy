@@ -28,6 +28,10 @@ public class QueueRunner {
 		System.out.println(queue.poll());
 		System.out.println(queue.poll());
 		System.out.println(queue.poll());
+		char a = '9';
+		System.out.println(a == 65);
+		System.out.println((int) a);
+
 	}
 
 }
