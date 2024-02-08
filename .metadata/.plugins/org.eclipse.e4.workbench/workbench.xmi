@@ -306,7 +306,7 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_-nl64rn3Ee6llKDUOERtYg" containerData="7500" selectedElement="_-nl67rn3Ee6llKDUOERtYg">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_-nl64rn3Ee6llKDUOERtYg" containerData="7500" selectedElement="_-nl647n3Ee6llKDUOERtYg">
               <children xsi:type="basic:PartSashContainer" xmi:id="_-nl647n3Ee6llKDUOERtYg" containerData="7169" selectedElement="_-nl65Ln3Ee6llKDUOERtYg" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_-nl65Ln3Ee6llKDUOERtYg" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_-nl9ebn3Ee6llKDUOERtYg"/>
                 <children xsi:type="basic:PartSashContainer" xmi:id="_-nl65bn3Ee6llKDUOERtYg" toBeRendered="false" containerData="2500">
@@ -627,7 +627,7 @@
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_QoafgMTzEe6oG-0osu-Thw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="FPumberRuner.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;FPumberRuner.java&quot; partName=&quot;FPumberRuner.java&quot; title=&quot;FPumberRuner.java&quot; tooltip=&quot;functional-programing/src/com/in28min/functionalprogramming/FPumberRuner.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/functional-programing/src/com/in28min/functionalprogramming/FPumberRuner.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;397&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;FPumberRuner.java&quot; partName=&quot;FPumberRuner.java&quot; title=&quot;FPumberRuner.java&quot; tooltip=&quot;functional-programing/src/com/in28min/functionalprogramming/FPumberRuner.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/functional-programing/src/com/in28min/functionalprogramming/FPumberRuner.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;496&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -955,7 +955,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_-nmig7n3Ee6llKDUOERtYg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="__d6cAMTqEe6oG-0osu-Thw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_-nnzu7n3Ee6llKDUOERtYg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_wR2LUMW3Ee6u2a9a9nHezA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_-nnzu7n3Ee6llKDUOERtYg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_-nmikLn3Ee6llKDUOERtYg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -963,8 +963,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_-nmikrn3Ee6llKDUOERtYg" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="__d7qIMTqEe6oG-0osu-Thw" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_-nnxpLn3Ee6llKDUOERtYg"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="__d8RMMTqEe6oG-0osu-Thw" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_-nnySbn3Ee6llKDUOERtYg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_wR3ZccW3Ee6u2a9a9nHezA" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" command="_-nnxpLn3Ee6llKDUOERtYg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_wR3ZcsW3Ee6u2a9a9nHezA" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_-nnySbn3Ee6llKDUOERtYg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_-nmilrn3Ee6llKDUOERtYg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -997,7 +997,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_-nmi6Ln3Ee6llKDUOERtYg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="__d9fUMTqEe6oG-0osu-Thw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_-nnzXrn3Ee6llKDUOERtYg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_wR4AhcW3Ee6u2a9a9nHezA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_-nnzXrn3Ee6llKDUOERtYg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_-nmi87n3Ee6llKDUOERtYg" elementId="org.eclipse.jdt.ui.ModuleInfoEditor" visible="false">
         <tags>Draggable</tags>

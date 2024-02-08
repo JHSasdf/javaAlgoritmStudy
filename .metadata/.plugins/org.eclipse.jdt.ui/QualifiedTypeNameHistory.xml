@@ -56,4 +56,5 @@
     <fullyQualifiedTypeName name="java.net.SocketTimeoutException"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
 </qualifiedTypeNameHistroy>
