@@ -2,7 +2,6 @@ package Stream;
 
 import java.util.List;
 import java.util.function.Predicate;
-import java.util.stream.Collectors;
 
 public class MethodReferencesRunner {
 
@@ -30,9 +29,7 @@ public class MethodReferencesRunner {
         System.out.println();
 
         Integer max2 = List.of(23, 45, 49, 26).stream().filter(evenPredicate).max(Integer::compare).orElse(0);
-        List<Integer> numbers = List.of(3,4,5,67);
-        List<Integer> filterOddNumbers = numbers.stream().filter(e -> e % 2 != 0).collect(Collectors.toList());
-        System.out.println(filterOddNumbers);
+
         System.out.println(max);
         System.out.println(max2);
 
