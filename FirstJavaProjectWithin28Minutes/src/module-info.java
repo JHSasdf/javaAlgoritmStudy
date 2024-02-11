@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module FirstJavaProjectWithin28Minutes {
-}
