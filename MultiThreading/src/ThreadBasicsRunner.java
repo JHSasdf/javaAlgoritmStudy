@@ -49,8 +49,8 @@ public class ThreadBasicsRunner {
         // yield() 메서드는 스레드 스케줄링에 대한 정확한 제어를 제공하지 않음
 
         // WAIT FOR TASK1 TO COMPLETE
-//        task1.join();
-//        task2Thread.join();
+        task1.join();
+        task2Thread.join();
 
         // main method
         System.out.println("\n Task3 Kicked Off");
