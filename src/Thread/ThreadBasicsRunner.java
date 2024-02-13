@@ -1,4 +1,4 @@
-// extends Thread
+package Thread;// extends Thread
 // implements Runnable
 
 class Task extends Thread {
@@ -7,21 +7,21 @@ class Task extends Thread {
         this.number = number;
     }
     public void run() { // SIGNATURE
-        System.out.println("\n Task" + number + " started");
+        System.out.println("\n Thread.Task" + number + " started");
         for (int i = number*100; i <= number*100 + 99; i++) {
             System.out.print(i + " ");
         }
-        System.out.println("\n Task" + number + "done");
+        System.out.println("\n Thread.Task" + number + "done");
     }
 }
 
 class Task2 implements Runnable {
     public void run() {
-        System.out.println("\n Task2 started");
+        System.out.println("\n Thread.Task2 started");
         for (int i = 201; i <= 299; i++) {
             System.out.print(i + " ");
         }
-        System.out.println("\n Task2 done");
+        System.out.println("\n Thread.Task2 done");
     }
 }
 
@@ -40,7 +40,7 @@ public class ThreadBasicsRunner {
 
 //        Thread.sleep(3000);
 
-        System.out.println("Task2 kicked off");
+        System.out.println("Thread.Task2 kicked off");
         Task2 task2 = new Task2();
         Thread task2Thread = new Thread(task2);
         task2Thread.setPriority(10); // 가장 높은 우선순위 10.
