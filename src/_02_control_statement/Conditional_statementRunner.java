@@ -2,7 +2,7 @@ package _02_control_statement;
 
 import java.util.Scanner;
 
-public class Conditional_statement {
+public class Conditional_statementRunner {
     public static void main(String[] args) {
         int number = 10;
         if (number % 2 == 0) {
@@ -27,18 +27,26 @@ public class Conditional_statement {
 
         // *문자열 리터럴의 경우, Java에서 특별 취급
         // 동일한 문자열 리터럴이 사용되는 경우, Java 컴파일러가 문자열 풀(String pool)이라는 영역에 해당 문자열을 저장
-        // 문자열 리터럴이란 코드에서 하드코딩된 문쟈열
+        // 문자열 리터럴이란 코드에서 하드코딩된 문자열
         String str1 = "hello";
         String str2 = "hello";
-        System.out.println("Str1 == Str2: " + (str1 == str2));
-        System.out.println("str1.equals(str2): " + str1.equals(str2));
+        System.out.println("Str1 == Str2: " + (str1 == str2)); // true
+        System.out.println("str1.equals(str2): " + str1.equals(str2)); //true
         
         // 문자열을 동적으로 할당하는 경우, new String(...) 을 이용해서 새로운 문자열 객체를 생성
         // 이럴 경우에는 서로 다른 객체를 가리키게 됨
+        // 물론 객체 할당이면 다똑같다.
         Integer a = new Integer(30);
         Integer b = new Integer(30);
-        System.out.println("thisis :" + (a == b));
-        System.out.println("thisis :" + (a.equals(b)));
+        Integer c = Integer.valueOf(30);
+        Integer d = Integer.valueOf(30);
+        System.out.println("c == d : " + (c==d));
+        String j = new String("hello");
+        String k = new String("hello");
+        System.out.println("J == K : " + (j == k)); // false
+        System.out.println("J == K with equals : " + j.equals(k));
+        System.out.println("thisis :" + (a == b)); // false
+        System.out.println("thisis :" + (a.equals(b))); // true
 
         ////////////////////////////////////////////
         // switch ~ case 문
