@@ -96,6 +96,9 @@ class Student{
         return age;
     }
 
+    // 사용자 정의 타입에서 오버라이드 하지 않으면, Object 객체에 있는 toString method가 호출.
+    // 이는 객체의 클래스 이름과 해시코드를 문자열로 반환 (즉 참조값 반환)
+    @Override
     public String toString() {
         return "name: " + this.name + "/ age: " + this.age;
     }

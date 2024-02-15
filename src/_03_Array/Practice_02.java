@@ -9,10 +9,11 @@ public class Practice_02 {
         String word = null;
         ArrayList<String> words = new ArrayList<>();
         do {
-            word = scanner.next();
+            word = scanner.nextLine();
             words.add(word);
 
         } while(!word.equals("exit"));
+        words.remove(words.size()-1);
         words.stream().forEach(System.out::println);
     }
 }
