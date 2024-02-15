@@ -36,9 +36,11 @@ class CurrenciesDoNotMatchException extends Exception {
 
 public class ThrowingExceptionRunner {
     public static void main(String[] args) throws CurrenciesDoNotMatchException {
+        System.out.println("sfsf");
         Amount amount1 = new Amount("USD", 10);
         Amount amount2 = new Amount("ERU", 20);
         amount1.add(amount2);
         System.out.println(amount1);
+        System.out.println("ggg");
     }
 }
