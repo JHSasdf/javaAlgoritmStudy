@@ -1,4 +1,4 @@
-package _04_Exception;
+package _04_exception;
 
 // 예외
 // - 일반 예외 (Exception) : 컴파일러가 예외 처리 코드 여부를 검사하는 예외

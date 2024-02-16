@@ -1,4 +1,4 @@
-package _04_Exception;
+package _04_exception;
 
 import java.util.*;
 
