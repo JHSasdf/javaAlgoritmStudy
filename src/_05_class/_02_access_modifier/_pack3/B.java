@@ -14,5 +14,6 @@ public class B {
         a.method1();
         a.method2();
 //      a.method3(); // private method이기 때문에 접근 불가, 컴파일 에러
+        a.method4();
     }
 }

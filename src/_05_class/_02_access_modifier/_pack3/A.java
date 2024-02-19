@@ -27,6 +27,8 @@ public class A {
 
     }
 
+    protected void method4() {}
+
     private void method3() {
 
     }
