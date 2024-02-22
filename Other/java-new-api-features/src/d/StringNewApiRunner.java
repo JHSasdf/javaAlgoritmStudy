@@ -15,7 +15,7 @@ public class StringNewApiRunner {
         String a ="UPPER".transform(s -> s.substring(2));
         System.out.println(a);
         System.out.println("My name is %s. My age is %d. ".formatted("Ranga", 25));
-
+        // null pointer exception
         String str = null;
         SampleClass sampleClass = new SampleClass();
         System.out.println(sampleClass.str.isBlank());
