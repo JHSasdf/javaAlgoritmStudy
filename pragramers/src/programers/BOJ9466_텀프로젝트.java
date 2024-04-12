@@ -1,46 +1,49 @@
 package programers;
 
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Stack;
 
 public class BOJ9466_텀프로젝트 {
-    static int[] graph;
-    static boolean[] visited;
+    static int[] nextNode;
+    static int[] depth;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int tc = sc.nextInt();
-        for(int i = 0 ; i < tc; i++) {
+        for(int t = 0; t< tc; t++) {
             int n = sc.nextInt();
-            graph = new int[n+1];
-            visited = new boolean[n+1];
-            for(int j = 1; j < n+1; j++) {
-                graph[j] = sc.nextInt();
+            nextNode = new int[n+1];
+            depth = new int[n+1];
+            for(int i = 1; i <=n ; i++) {
+                nextNode[i] = sc.nextInt();
+                depth[i] = 0;
             }
-            int count = 0;
-            for(int j = 1; j < n+1; j++) {
-                visited = new boolean[n+1];
-                    count += dfs(j)? 1:0;
-            }
-            System.out.println(count);
-        }
-    }
-    public static boolean dfs(int node) {
-        Stack<Integer> s = new Stack<>();
-        s.add(node);
-        visited[node] = true;
-        while(!s.isEmpty()) {
-            int now = s.pop();
-
-            int nextNode = graph[now];
-            if(!visited[nextNode]) {
-                s.add(nextNode);
-                visited[nextNode] = true;
-                if(node == nextNode) {
-                    return false;
+            int cnt = 0;
+            for(int i = 0; i <=n; i++) {
+                if(depth[i] == 0) {
+                    depth[i] = 1;
+                    cnt+= dfs(i);
                 }
             }
+            System.out.println(n-cnt+1);
         }
-        return true;
+
+    }
+    static int dfs(int nodeNum) {
+        int next = nextNode[nodeNum];
+        int cycleCnt = 0;
+        // 첫 방문
+        if(depth[next] == 0) {
+            depth[next] = depth[nodeNum] +1;
+            cycleCnt = dfs(next);
+        }
+        // 재방문
+        else {
+            cycleCnt = depth[nodeNum] - depth[next] +1;
+        }
+        // 다음 탐색을 위해 재귀 안에서 초기화
+        depth[nodeNum] = 100001;
+        return cycleCnt < 0 ? 0: cycleCnt;
     }
 }
