@@ -86,7 +86,7 @@ public class BOJ5427_불 {
 class Point {
     int r, c;
 
-    public Point(int r, int c) {
+     Point(int r, int c) {
         this.r = r;
         this.c = c;
     }

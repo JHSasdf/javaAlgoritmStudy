@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class BOJ16987 {
     static Egg[] eggs;
+
     static int n;
     static int answer = Integer.MIN_VALUE;
 
